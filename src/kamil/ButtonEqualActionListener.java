@@ -23,7 +23,7 @@ public class ButtonEqualActionListener implements ActionListener {
 		try {
 			textField.setText(engine.eval(textField.getText()).toString());
 		} catch (ScriptException e1) {
-			System.out.println("Error " + e1);
+			System.out.println("Error" + e1);
 		}
 	}
 
